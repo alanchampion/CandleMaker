@@ -1,1 +1,1 @@
-web: gunicorn CandleMaker:app
+web: gunicorn CandleMaker.wsgi
