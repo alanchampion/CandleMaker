@@ -26,7 +26,7 @@ SECRET_KEY = 'dozxhsep64gi#@o68dtusnk42j4p2yd_t9zvgca+)*3a*ki@*d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['candle-maker.herokuapp.com', 'localhost:8000', 'localhost']
+ALLOWED_HOSTS = ['localhost:8000', 'localhost']
 
 
 # Application definition

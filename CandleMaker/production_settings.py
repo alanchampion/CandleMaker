@@ -21,12 +21,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'dozxhsep64gi#@o68dtusnk42j4p2yd_t9zvgca+)*3a*ki@*d'
+SECRET_KEY = get_env_variable('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['candle-maker.herokuapp.com', 'localhost:8000', 'localhost']
+ALLOWED_HOSTS = ['candle-maker.herokuapp.com']
 
 
 # Application definition
